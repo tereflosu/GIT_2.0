@@ -2,7 +2,7 @@ package es.sanitas.mediadores.vo;
 
 import java.util.Date;
 
-
+ /** Clase  BeanColectivos*/
 public class BeanColectivos extends AbstractVO {
 
     /** Variable serialVersionUID */
@@ -24,6 +24,7 @@ public class BeanColectivos extends AbstractVO {
 
     private String sFRemesa;
 
+	/** Getter y setter */
     public void setIdPoliza( Long idPoliza ) {
         this.idPoliza = idPoliza;
     }
@@ -37,6 +38,7 @@ public class BeanColectivos extends AbstractVO {
     }
 
     public Long getIdCompania() {
+		/** getIdCompania()*/
         return idCompania;
     }
 
